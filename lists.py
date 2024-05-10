@@ -8,7 +8,11 @@ def remove_elements(list_to_remove_elements):
 print(remove_elements(['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']))
 
 def add_elements(list_to_add_elements):
-    return "ANSWER HERE"  # Remove this line and implement
+    list_to_add_elements.insert(0,"Pink")
+    b=len( list_to_add_elements)+1
+    list_to_add_elements.insert(b,"Yellow")
+    return list_to_add_elements
+print(add_elements(['Red', 'Green', 'White', 'Black']))
 
 
 def is_empty(list_to_check):
