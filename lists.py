@@ -1,8 +1,11 @@
-# Replace the "ANSWER HERE" with your answer
-
 def remove_elements(list_to_remove_elements):
-    return "ANSWER HERE"  # Remove this line and implement
-
+   if len(list_to_remove_elements) >=6:
+       del list_to_remove_elements[5]
+   if len (list_to_remove_elements) >=5:
+       del list_to_remove_elements[4]
+       del list_to_remove_elements[0]
+   return list_to_remove_elements
+print(remove_elements(['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']))
 
 def add_elements(list_to_add_elements):
     return "ANSWER HERE"  # Remove this line and implement
