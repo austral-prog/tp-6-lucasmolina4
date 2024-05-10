@@ -16,11 +16,21 @@ print(add_elements(['Red', 'Green', 'White', 'Black']))
 
 
 def is_empty(list_to_check):
-    return "ANSWER HERE"  # Remove this line and implement
+   if len(list_to_check) == 0:
+      return True
+   else:
+       return False
 
 
 def check_lists(list_to_compare1, list_to_compare2):
-    return "ANSWER HERE"  # Remove this line and implement
+   if len(list_to_compare1) >=3 and len(list_to_compare2)>=3:
+       if list_to_compare1[2] == list_to_compare2[2]:
+           return True
+       else:
+           False
+   else:
+       False
+
 
 
 def list_of_lists(list_of_lists_to_modify):
